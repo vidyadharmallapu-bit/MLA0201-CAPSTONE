@@ -1,0 +1,222 @@
+[
+  {
+    "id": "TQ-001",
+    "question": "What percentage score do I need in Class 12 to be eligible for CSSS?",
+    "category": "Eligibility",
+    "expected_rule_id": "CSSS-R001",
+    "cq_guided_prediction": "CSSS-R001",
+    "adhoc_prediction": "CSSS-R001",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Both approaches capture the 80th percentile rule — it is prominent in the policy document."
+  },
+  {
+    "id": "TQ-002",
+    "question": "What is the maximum family income allowed to get the scholarship?",
+    "category": "Eligibility",
+    "expected_rule_id": "CSSS-R002",
+    "cq_guided_prediction": "CSSS-R002",
+    "adhoc_prediction": "CSSS-R002",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Income limit is prominently stated; both approaches identify it."
+  },
+  {
+    "id": "TQ-003",
+    "question": "How much money will I get per year if I study engineering?",
+    "category": "Award",
+    "expected_rule_id": "CSSS-R004",
+    "cq_guided_prediction": "CSSS-R004",
+    "adhoc_prediction": "CSSS-R004",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Technical course amount — easily found in both approaches."
+  },
+  {
+    "id": "TQ-004",
+    "question": "What is the scholarship amount for a BA student?",
+    "category": "Award",
+    "expected_rule_id": "CSSS-R005",
+    "cq_guided_prediction": "CSSS-R005",
+    "adhoc_prediction": "CSSS-R005",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "General degree amount — found in both approaches."
+  },
+  {
+    "id": "TQ-005",
+    "question": "What marks do I need to score each year to keep receiving the scholarship?",
+    "category": "Renewal",
+    "expected_rule_id": "CSSS-R006",
+    "cq_guided_prediction": "CSSS-R006",
+    "adhoc_prediction": "CSSS-R006",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Annual renewal threshold — captured by both."
+  },
+  {
+    "id": "TQ-006",
+    "question": "Can I apply for CSSS if I am already getting the National Merit Scholarship?",
+    "category": "Restrictions",
+    "expected_rule_id": "CSSS-R007",
+    "cq_guided_prediction": "CSSS-R007",
+    "adhoc_prediction": "CSSS-R007",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Dual-scholarship restriction — captured by both."
+  },
+  {
+    "id": "TQ-007",
+    "question": "I changed my college this year. Will I still get CSSS?",
+    "category": "Continuity",
+    "expected_rule_id": "CSSS-R008",
+    "cq_guided_prediction": "CSSS-R008",
+    "adhoc_prediction": "CSSS-R008",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "College change rule — captured by both."
+  },
+  {
+    "id": "TQ-008",
+    "question": "Where do I submit my scholarship application?",
+    "category": "Process",
+    "expected_rule_id": "CSSS-R009",
+    "cq_guided_prediction": "CSSS-R009",
+    "adhoc_prediction": "CSSS-R009",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "NSP application process — captured by both."
+  },
+  {
+    "id": "TQ-009",
+    "question": "How many students get this scholarship every year?",
+    "category": "Scheme",
+    "expected_rule_id": "CSSS-R010",
+    "cq_guided_prediction": "CSSS-R010",
+    "adhoc_prediction": "CSSS-R010",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Total scholarship count — captured by both."
+  },
+  {
+    "id": "TQ-010",
+    "question": "Will I be expelled from the scheme if I gave wrong information in my application?",
+    "category": "Restrictions",
+    "expected_rule_id": "CSSS-R012",
+    "cq_guided_prediction": "CSSS-R012",
+    "adhoc_prediction": "CSSS-R012",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "False information penalty — captured by both."
+  },
+  {
+    "id": "TQ-011",
+    "question": "Will the scholarship money be deposited in my bank account?",
+    "category": "Process",
+    "expected_rule_id": "CSSS-R013",
+    "cq_guided_prediction": "CSSS-R013",
+    "adhoc_prediction": "CSSS-R013",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "DBT disbursement — captured by both."
+  },
+  {
+    "id": "TQ-012",
+    "question": "Is there any SC/ST reservation in CSSS?",
+    "category": "Scheme",
+    "expected_rule_id": "CSSS-R014",
+    "cq_guided_prediction": "CSSS-R014",
+    "adhoc_prediction": "CSSS-R014",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Reservation policy — captured by both."
+  },
+  {
+    "id": "TQ-013",
+    "question": "For how many years will I receive CSSS for a 3-year degree?",
+    "category": "Award",
+    "expected_rule_id": "CSSS-R015",
+    "cq_guided_prediction": "CSSS-R015",
+    "adhoc_prediction": "CSSS-R015",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Duration rule — found in both approaches."
+  },
+  {
+    "id": "TQ-014",
+    "question": "Can a physically disabled student get any special benefit under CSSS?",
+    "category": "Scheme",
+    "expected_rule_id": "CSSS-R016",
+    "cq_guided_prediction": "CSSS-R016",
+    "adhoc_prediction": "CSSS-R016",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "PwD reservation — captured by both."
+  },
+  {
+    "id": "TQ-015",
+    "question": "I changed from Science stream to Commerce. Can I still receive CSSS?",
+    "category": "Continuity",
+    "expected_rule_id": "CSSS-R017",
+    "cq_guided_prediction": "CSSS-R017",
+    "adhoc_prediction": null,
+    "cq_guided_correct": true,
+    "adhoc_correct": false,
+    "notes": "Stream change rule — CQ-014 explicitly guided capture of this rule. Ad hoc approach did not define a CQ for this scenario, leaving it uncaptured."
+  },
+  {
+    "id": "TQ-016",
+    "question": "What happens to my scholarship if I take a year off from college?",
+    "category": "Continuity",
+    "expected_rule_id": "CSSS-R018",
+    "cq_guided_prediction": "CSSS-R018",
+    "adhoc_prediction": null,
+    "cq_guided_correct": true,
+    "adhoc_correct": false,
+    "notes": "Gap year suspension — CQ-015 explicitly captured this. Ad hoc approach missed this edge-case rule."
+  },
+  {
+    "id": "TQ-017",
+    "question": "What income document do I need to submit with my application?",
+    "category": "Process",
+    "expected_rule_id": "CSSS-R019",
+    "cq_guided_prediction": "CSSS-R019",
+    "adhoc_prediction": "CSSS-R009",
+    "cq_guided_correct": true,
+    "adhoc_correct": false,
+    "notes": "Income certificate requirement — CQ-007 explicitly covered documentation. Ad hoc mapped this to the general application rule (R009) instead of the specific income certificate rule (R019)."
+  },
+  {
+    "id": "TQ-018",
+    "question": "Can a student who completed Class 12 from a foreign school apply for CSSS?",
+    "category": "Eligibility",
+    "expected_rule_id": "CSSS-R020",
+    "cq_guided_prediction": "CSSS-R020",
+    "adhoc_prediction": null,
+    "cq_guided_correct": true,
+    "adhoc_correct": false,
+    "notes": "Domicile/nationality rule — CQ-001 guided capture of R020. Ad hoc approach did not explicitly capture the Indian-school requirement as a separate rule."
+  },
+  {
+    "id": "TQ-019",
+    "question": "Is studying through distance education eligible for CSSS?",
+    "category": "Eligibility",
+    "expected_rule_id": "CSSS-R003",
+    "cq_guided_prediction": "CSSS-R003",
+    "adhoc_prediction": "CSSS-R003",
+    "cq_guided_correct": true,
+    "adhoc_correct": true,
+    "notes": "Distance education exclusion — captured by both approaches."
+  },
+  {
+    "id": "TQ-020",
+    "question": "How is the state-wise quota for CSSS determined?",
+    "category": "Scheme",
+    "expected_rule_id": "CSSS-R011",
+    "cq_guided_prediction": "CSSS-R011",
+    "adhoc_prediction": "CSSS-R010",
+    "cq_guided_correct": true,
+    "adhoc_correct": false,
+    "notes": "State distribution mechanism — CQ-008 explicitly asked about distribution. Ad hoc conflated total count (R010) with the distribution mechanism (R011)."
+  }
+]

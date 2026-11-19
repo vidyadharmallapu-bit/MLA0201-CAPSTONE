@@ -1,0 +1,122 @@
+[
+  {
+    "id": "CQ-001",
+    "question": "Who is eligible to apply for the CSSS scholarship?",
+    "related_rule_ids": ["CSSS-R001", "CSSS-R002", "CSSS-R003", "CSSS-R020"],
+    "category": "Eligibility",
+    "expected_answer_type": "criteria_list",
+    "purpose": "Identify all eligibility conditions so the knowledge base can answer who qualifies."
+  },
+  {
+    "id": "CQ-002",
+    "question": "What is the family income ceiling for CSSS?",
+    "related_rule_ids": ["CSSS-R002"],
+    "category": "Eligibility",
+    "expected_answer_type": "numeric_threshold",
+    "purpose": "Capture the exact income limit to answer income-related queries precisely."
+  },
+  {
+    "id": "CQ-003",
+    "question": "How much scholarship money does a student receive per year?",
+    "related_rule_ids": ["CSSS-R004", "CSSS-R005"],
+    "category": "Award",
+    "expected_answer_type": "amount_conditional",
+    "purpose": "Distinguish award amounts by course type (technical vs. general)."
+  },
+  {
+    "id": "CQ-004",
+    "question": "What must a student do to renew the scholarship each year?",
+    "related_rule_ids": ["CSSS-R006"],
+    "category": "Renewal",
+    "expected_answer_type": "condition_list",
+    "purpose": "Identify renewal conditions so the KB can answer continuity questions."
+  },
+  {
+    "id": "CQ-005",
+    "question": "Can a student hold CSSS together with another central government scholarship?",
+    "related_rule_ids": ["CSSS-R007"],
+    "category": "Restrictions",
+    "expected_answer_type": "yes_no_with_condition",
+    "purpose": "Capture scholarship combination rules."
+  },
+  {
+    "id": "CQ-006",
+    "question": "What happens if a CSSS recipient changes their college?",
+    "related_rule_ids": ["CSSS-R008"],
+    "category": "Continuity",
+    "expected_answer_type": "process_description",
+    "purpose": "Capture the rule about institutional transfer."
+  },
+  {
+    "id": "CQ-007",
+    "question": "How does a student apply for CSSS?",
+    "related_rule_ids": ["CSSS-R009", "CSSS-R019"],
+    "category": "Process",
+    "expected_answer_type": "process_description",
+    "purpose": "Capture the application process including portal and documentation requirements."
+  },
+  {
+    "id": "CQ-008",
+    "question": "How many CSSS scholarships are available nationally each year?",
+    "related_rule_ids": ["CSSS-R010", "CSSS-R011"],
+    "category": "Scheme",
+    "expected_answer_type": "numeric",
+    "purpose": "Capture scheme scale and distribution rules."
+  },
+  {
+    "id": "CQ-009",
+    "question": "What are the consequences of providing false information in a CSSS application?",
+    "related_rule_ids": ["CSSS-R012"],
+    "category": "Restrictions",
+    "expected_answer_type": "consequence_list",
+    "purpose": "Capture the penalty rule for fraudulent applications."
+  },
+  {
+    "id": "CQ-010",
+    "question": "How is the scholarship money paid to the student?",
+    "related_rule_ids": ["CSSS-R013"],
+    "category": "Process",
+    "expected_answer_type": "process_description",
+    "purpose": "Capture the disbursement mechanism."
+  },
+  {
+    "id": "CQ-011",
+    "question": "Does caste-based reservation apply to CSSS?",
+    "related_rule_ids": ["CSSS-R014"],
+    "category": "Scheme",
+    "expected_answer_type": "yes_no_with_explanation",
+    "purpose": "Clarify reservation rules to avoid confusion with other scholarship schemes."
+  },
+  {
+    "id": "CQ-012",
+    "question": "For how many years is the CSSS scholarship granted?",
+    "related_rule_ids": ["CSSS-R015"],
+    "category": "Award",
+    "expected_answer_type": "duration_conditional",
+    "purpose": "Capture scholarship duration rules linked to course type."
+  },
+  {
+    "id": "CQ-013",
+    "question": "Is there any reservation for students with disabilities under CSSS?",
+    "related_rule_ids": ["CSSS-R016"],
+    "category": "Scheme",
+    "expected_answer_type": "yes_no_with_percentage",
+    "purpose": "Capture PwD reservation rule."
+  },
+  {
+    "id": "CQ-014",
+    "question": "What happens to CSSS if a student changes their stream of study?",
+    "related_rule_ids": ["CSSS-R017"],
+    "category": "Continuity",
+    "expected_answer_type": "process_description",
+    "purpose": "Capture stream-change continuity rules."
+  },
+  {
+    "id": "CQ-015",
+    "question": "What happens to CSSS if a student takes a gap year?",
+    "related_rule_ids": ["CSSS-R018"],
+    "category": "Continuity",
+    "expected_answer_type": "consequence_description",
+    "purpose": "Capture gap-year suspension rule."
+  }
+]
